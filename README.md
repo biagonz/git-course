@@ -181,3 +181,9 @@ O SSH é um protocolo que serve autenticar um usuário remoto a um servidor. Ele
     git remote add origin git@github.com:user/repo-name.git
     git push -u origin master
 
+# Renomear o branch padrão
+Para atualizar o novo nome da branch padrão no repositório locla pé necessário rodar os comandos abaixo
+
+    git branch -m master <BRANCH>
+    git fetch origin
+    git branch -u origin/<BRANCH> <BRANCH>
