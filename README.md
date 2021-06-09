@@ -141,6 +141,20 @@ O checkout tambpém pode ser utilizado para sair de uma branch para outra.
 
     git checkout -b branch-name
 
+
+# Git Delete
+Apaga a branch
+
+    git branch --delete main
+
+    or
+
+    git branch --delete --force main
+
+    or 
+
+    git branch -D main
+
 # Criar um novo repositório
 https://github.com/new
 
